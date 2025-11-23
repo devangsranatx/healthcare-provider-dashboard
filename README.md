@@ -1,120 +1,94 @@
-📊 Healthcare Provider Billing Dashboard (Power BI)
+# 📊 Healthcare Provider Billing Dashboard (Power BI)
 
-This project is an interactive Healthcare Provider Billing Dashboard built using Power BI. It provides a comprehensive overview of key financial metrics across procedures, diagnoses, departments, and locations. The dashboard is designed to help healthcare administrators quickly identify high-cost areas, track billing performance, and support data-driven decision-making.
+This project is an interactive **Healthcare Provider Billing Dashboard** built using **Power BI**. It provides actionable insights into billing performance across procedures, diagnoses, departments, and geographic locations. The dashboard is designed for healthcare finance teams, clinical leaders, and operational managers to support data-driven decision-making.
 
-🚀 Project Highlights
-✔ Key Metrics
+---
 
-Total Billing Amount
+## 🚀 Project Overview
 
-Total Medication Cost
+The dashboard analyzes a full year of provider billing data, focusing on:
 
-Total Treatment Cost
+- Total Billing Amount
+- Medication Cost
+- Treatment Cost
+- Insurance Coverage
+- Patient Out-of-Pocket Contribution
 
-Total Insurance Coverage
+These KPIs help organizations understand financial health, identify cost drivers, and optimize reimbursement strategies.
 
-Out-of-Pocket Patient Costs
+---
 
-Average billing metrics per visit
+## 📊 Key Features
 
-These KPIs help healthcare leaders understand spending patterns and overall financial health.
+### 🔹 **1. Financial KPI Cards**
+Displays the most important financial metrics:
+- Total Billing Amount  
+- Total Medication Cost  
+- Total Treatment Cost  
+- Total Insurance Coverage  
+- Total Out-of-Pocket Costs  
+- Average cost per patient visit  
 
-📈 Dashboard Features
-1. Billing Analysis by Procedure
+---
 
-Bar chart comparing billing amounts for:
+### 🔹 **2. Billing by Procedure**
+Bar chart comparing billing amounts across:
+- CT Scan  
+- X-Ray  
+- MRI Scan  
+- Ultrasound  
+- Blood Test  
 
-CT Scan
+Includes value labels and percentage contribution.
 
-X-Ray
+---
 
-MRI
+### 🔹 **3. Billing by Department**
+Shows which departments contribute most to revenue:
+- Cardiology  
+- General Surgery  
+- Neurology  
+- Orthopedics  
+- Pediatrics  
 
-Ultrasound
+Percentage share and total billing included.
 
-Blood Tests
+---
 
-Shows volume contribution and percentage share.
+### 🔹 **4. Diagnosis & Service Type Analysis**
+Visual breakdown by:
+- Diagnosis (Hypertension, Asthma, Appendicitis, etc.)
+- Service Type (Emergency, Inpatient, Outpatient)
 
-2. Billing by Department
+Provides insight into treatment types driving cost.
 
-Breakdown of total billing amounts across:
+---
 
-Cardiology
+### 🔹 **5. Geographic Billing Distribution**
+Interactive map showing billing by:
+- City  
+- State  
 
-General Surgery
+Useful for identifying geographical trends and regional performance.
 
-Neurology
+---
 
-Orthopedics
+## 🎨 UI/UX Design
 
-Pediatrics
+- Soft gradient background  
+- Rounded containers  
+- Clean healthcare-themed color palette  
+- Clear KPIs with icons  
+- Intuitive slicers (City / State toggle)  
+- Fully interactive visual layout  
 
-Helps identify top-performing and high-cost departments.
+---
 
-3. Diagnosis & Service Type Insights
+## 🛠 Tools & Technologies
+- **Power BI Desktop**
+- **Power Query** for cleaning data
+- **DAX** for calculated measures
+- **Sample Healthcare Billing Dataset**
 
-Displays billing amounts by diagnosis (e.g., hypertension, asthma, fractures)
-with service-type segmentation:
+---
 
-Emergency
-
-Inpatient
-
-Outpatient
-
-4. Geographic Billing Distribution
-
-An interactive map visually highlights billing totals by city or state, helping visualize regional trends.
-
-🎨 Design & UI
-
-Clean, modern healthcare-themed layout
-
-Soft gradient background
-
-Rounded container cards
-
-Clear typography and metric cards
-
-Fully interactive slicers (City / State)
-
-🛠 Tools & Technologies
-
-Power BI Desktop
-
-DAX for calculated measures
-
-Data modeling & visualization
-
-Sample healthcare billing dataset
-
-📌 Purpose of the Project
-
-This project was created to:
-
-Strengthen Power BI visualization and modeling skills
-
-Demonstrate healthcare analytics capabilities
-
-Serve as a strong portfolio piece for a Healthcare Data Analyst or Clinical Data Analyst role
-
-📂 Repository Includes
-
-Dashboard screenshots
-
-Power BI (.pbix) file
-
-Description of insights
-
-Data summary
-
-🔥 Future Enhancements
-
-Add patient demographics
-
-Introduce time-series trends
-
-Predictive analytics (forecasting)
-
-Drill-through pages for deeper insights
